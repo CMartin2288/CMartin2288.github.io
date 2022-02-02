@@ -1,0 +1,21 @@
+body
+{
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+    color: darkblue;
+}
+a
+{
+    color: firebrick;
+}
+a:visited
+{
+    color: darkorange;
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
