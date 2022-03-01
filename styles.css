@@ -7,15 +7,19 @@ h1
 {
     color: darkblue;
 }
-a
-{
-    color: firebrick;
-}
-a:visited
-{
-    color: darkorange;
-}
 p
 {
     font-family: 'Times New Roman', Times, serif;
+}
+.assignment
+{
+    background-color: lightblue;
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+.assignment a img
+{
+    width: 200px;
+    padding: 10px;
 }
