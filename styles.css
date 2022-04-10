@@ -6,15 +6,24 @@ body
 h1
 {
     color: darkblue;
+    text-align: center;
 }
 p
 {
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.pageelement
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .assignment
 {
+    width: 20%;
     background-color: lightblue;
-    display: flex;
+    /*display: flex;*/
     padding: 20px;
     margin: 10px;
     border: 4px solid darkblue;
@@ -22,9 +31,10 @@ p
 }
 .assignment img
 {
+    display: block;
+    margin: auto;
     width: 200px;
     border: 6px inset steelblue;
-    margin: 10px;
 }
 .assignment img:hover
 {
@@ -34,6 +44,7 @@ a
 {
     text-decoration: none;
     color: steelblue;
+    text-align: center;
 }
 a:hover
 {
